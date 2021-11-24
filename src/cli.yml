@@ -1,0 +1,17 @@
+name: davsync
+version: "0.1"
+author: Romain TAPREST <romain@taprest.fr>
+about: A synchronization command line tool for webdav.
+args:
+  - source:
+      required: true
+      help: The local or remote source path to synchronize.
+      index: 1
+  - target:
+      required: true
+      help: The local or remote target path to synchronize.
+      index: 2
+  - verbose:
+      short: v
+      multiple: true
+      help: Sets the level of verbosity

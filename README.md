@@ -5,6 +5,8 @@ A command line tool like rsync but for webdav. Built with Rust.
 
 - https://crates.io/crates/fast_rsync
 - https://crates.io/crates/rustydav
+- https://clap.rs/
+
 
 # Inspirations
 
